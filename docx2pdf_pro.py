@@ -41,6 +41,7 @@ def main():
                 sys.argv = argv
                 cli()
         pre_print(f"转换完成, 输出目录为 {output_path}")
+        input("按任意键退出...")
 
 
 if __name__ == "__main__":

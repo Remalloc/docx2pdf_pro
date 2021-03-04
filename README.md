@@ -8,4 +8,4 @@
 ## 打包
 1. 安装requirements.txt中的依赖
 2. 将hook-docx2pdf.py放入PyInstaller/hooks中
-3. pyinstaller -F docx2pdf_pro.py
+3. pyinstaller -i"icon.ico" -F --upx-dir="upx目录(可选)" docx2pdf_pro.py
